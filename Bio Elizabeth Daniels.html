@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Career Portfolio — Elizabeth Daniels</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f7; color: #1d1d1f; line-height: 1.6; }
+  .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+  header { background: linear-gradient(135deg, #0066cc, #004499); color: white; padding: 60px 40px; border-radius: 16px; margin-bottom: 32px; }
+  header h1 { font-size: 36px; font-weight: 700; margin-bottom: 8px; }
+  header .subtitle { font-size: 18px; opacity: 0.9; margin-bottom: 4px; }
+  header .tenure { font-size: 14px; opacity: 0.7; }
+  .summary { background: white; border-radius: 12px; padding: 32px; margin-bottom: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+  .summary p { font-size: 17px; color: #333; }
+  h2 { font-size: 24px; font-weight: 700; margin: 32px 0 16px; color: #1d1d1f; }
+  .achievement-card { background: white; border-radius: 12px; padding: 28px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #0066cc; }
+  .achievement-card h3 { font-size: 18px; font-weight: 600; color: #0066cc; margin-bottom: 12px; }
+  .achievement-card .metric { display: inline-block; background: #e8f4fd; color: #0066cc; padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 600; margin: 4px 4px 8px 0; }
+  .achievement-card p { font-size: 15px; color: #555; margin-bottom: 8px; }
+  .achievement-card strong { color: #1d1d1f; }
+  .skills-section { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 32px; }
+  .skill-group { background: white; border-radius: 12px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+  .skill-group h3 { font-size: 15px; font-weight: 600; color: #0066cc; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .skill-group ul { list-style: none; }
+  .skill-group li { font-size: 14px; color: #555; padding: 4px 0; }
+  .skill-group li::before { content: ""; display: inline-block; width: 6px; height: 6px; background: #0066cc; border-radius: 50%; margin-right: 8px; vertical-align: middle; }
+  .trajectory { background: white; border-radius: 12px; padding: 32px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 32px; }
+  .trajectory p { font-size: 15px; color: #555; }
+  footer { text-align: center; padding: 24px; color: #999; font-size: 13px; }
+  @media print {
+    body { background: white; }
+    .container { padding: 0; }
+    header { border-radius: 0; }
+    .achievement-card, .skill-group, .summary, .trajectory { box-shadow: none; border: 1px solid #eee; }
+  }
+  @media (max-width: 600px) {
+    .skills-section { grid-template-columns: 1fr; }
+    header { padding: 40px 24px; }
+    header h1 { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>Elizabeth Daniels</h1>
+  <div class="subtitle">Content Designer</div>
+  <div class="tenure">Meta, 2025 - 2026</div>
+</header>
+
+<div class="summary">
+  <p>Content Designer specializing in monetization and business messaging experiences for a global communication platform serving billions of users. Expert in translating complex product and legal requirements into clear, user-centered content that drives measurable business outcomes. Skilled at cross-functional partnership with engineering, legal, research, and product teams to ship high-stakes features under tight timelines.</p>
+</div>
+
+<h2>Key Achievements</h2>
+
+<div class="achievement-card">
+  <h3>Renamed Core Product Terminology to Drive Revenue Growth</h3>
+  <span class="metric">+171% revenue</span>
+  <span class="metric">+$157K in 28 days</span>
+  <span class="metric">300%+ over target</span>
+  <p>Led the strategic rename of a key monetization concept across all user-facing surfaces to reduce confusion and encourage conversion to paid features. Conducted terminology audit, documented precedents, built legal positioning brief, and secured cross-functional approval.</p>
+  <p><strong>Result:</strong> Product surpassed revenue targets by over 300%. Legal partner praised the "depth and clarity" of the positioning work.</p>
+</div>
+
+<div class="achievement-card">
+  <h3>Designed AI-Powered Content Creation Experience</h3>
+  <span class="metric">58% acceptance rate</span>
+  <span class="metric">4.9/5 satisfaction</span>
+  <span class="metric">4.7/5 relevance</span>
+  <p>Created the full content suite for a generative AI feature: onboarding, education tooltips, error states, and prompt formatting rules. Partnered with engineering to reshape the interaction flow from chat-like to a more intuitive step-by-step design.</p>
+  <p><strong>Result:</strong> 58% feature acceptance rate. User satisfaction of 4.9/5 in Brazil. Media creation relevance rated 4.7/5.</p>
+</div>
+
+<div class="achievement-card">
+  <h3>Redesigned Audience Targeting Labels for 3x Conversion Lift</h3>
+  <span class="metric">~3x conversion</span>
+  <span class="metric">Full content rewrite</span>
+  <p>Rewrote all content for a dynamic audience targeting feature after identifying original designs lacked clarity. Replaced vague legacy labels with human-centric terms. Introduced "automatic updates" as the core value proposition.</p>
+  <p><strong>Result:</strong> Campaign conversion rate approximately 3x higher than the traditional funnel.</p>
+</div>
+
+<div class="achievement-card">
+  <h3>Built Legal/Compliance Content Framework</h3>
+  <span class="metric">100% on-time delivery</span>
+  <span class="metric">Team standard</span>
+  <p>Created a repeatable content framework for navigating ambiguous legal constraints in product copy. Partnered with legal teams to document positioning rationale and build risk mitigation language patterns.</p>
+  <p><strong>Result:</strong> Framework adopted as a team standard. 100% on-time delivery for all feature build reviews.</p>
+</div>
+
+<div class="achievement-card">
+  <h3>Expanded Platform Capabilities Through Content Design</h3>
+  <span class="metric">8x capacity increase</span>
+  <span class="metric">+6% read counts</span>
+  <p>Designed upload flow with error-handling and data validation content for a new business tool. Created patterns for edge cases that guided users through a complex technical process.</p>
+  <p><strong>Result:</strong> 3% of daily campaigns exceeded the previous limit, driving a 6% increase in message read counts.</p>
+</div>
+
+<div class="achievement-card">
+  <h3>Drove Feature Adoption Through Onboarding Content</h3>
+  <span class="metric">40%+ adoption</span>
+  <span class="metric">&lt;5% opt-out</span>
+  <p>Simplified onboarding content for a business automation feature targeting 24,000 users. Designed contextual messaging following platform content standards.</p>
+  <p><strong>Result:</strong> Adoption rate above 40% with opt-out rate below 5%.</p>
+</div>
+
+<div class="achievement-card">
+  <h3>Reactivated Lapsed Users Through Subscription Content</h3>
+  <span class="metric">6-14 day activation</span>
+  <span class="metric">Lapsed user recovery</span>
+  <p>Designed upsell prompts that communicated exclusive subscriber benefits, integrating a new perk into an existing subscription product.</p>
+  <p><strong>Result:</strong> Successfully reactivated lapsed users. New subscribers activated within 6-14 days.</p>
+</div>
+
+<h2>Skills</h2>
+
+<div class="skills-section">
+  <div class="skill-group">
+    <h3>Content Design</h3>
+    <ul>
+      <li>Content strategy & IA</li>
+      <li>Terminology governance</li>
+      <li>Error messaging & edge cases</li>
+      <li>Onboarding & NUX design</li>
+      <li>Cross-platform content systems</li>
+    </ul>
+  </div>
+  <div class="skill-group">
+    <h3>AI & Technology</h3>
+    <ul>
+      <li>GenAI prompt design</li>
+      <li>AI content architecture</li>
+      <li>Multi-agent workflows</li>
+      <li>Prompt engineering</li>
+    </ul>
+  </div>
+  <div class="skill-group">
+    <h3>Strategic</h3>
+    <ul>
+      <li>Legal/compliance positioning</li>
+      <li>Cross-functional partnership</li>
+      <li>UXR-informed decisions</li>
+      <li>Monetization strategy</li>
+    </ul>
+  </div>
+  <div class="skill-group">
+    <h3>Tools</h3>
+    <ul>
+      <li>Figma</li>
+      <li>AI development tools</li>
+      <li>Content tracking systems</li>
+      <li>Data analytics platforms</li>
+    </ul>
+  </div>
+</div>
+
+<h2>Career Trajectory</h2>
+
+<div class="trajectory">
+  <p>Joined Meta in mid-2025 as a Content Designer on the business messaging monetization team. Within the first six months, established credibility through a high-impact terminology decision that drove measurable revenue growth and earned recognition from legal, engineering, and content design peers. Expanded scope to include AI-powered features, audience targeting systems, and subscription bundles. By early 2026, owned the content strategy for multiple concurrent workstreams including platform migration campaigns, new product tiers, and cross-functional review processes.</p>
+  <br>
+  <p>Previously served as a UX Writer at a major technology company, bringing experience from a precision-focused, design-driven culture. Background spans help content, marketing, magazine writing, and content design.</p>
+</div>
+
+<footer>
+  Generated May 2026 | Career Portfolio
+</footer>
+
+</div>
+</body>
+</html>
